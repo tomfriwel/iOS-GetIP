@@ -28,63 +28,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"%@", [self getIPAddresses]);
-    NSLog(@"%@", [self getIPAddress:YES]);
-    NSLog(@"%@", [self getIPAddress:NO]);
-    NSLog(@"%@", [self getIPAddress]);
+    NSLog(@"getIPAddresses:%@", [self getIPAddresses]);
+    NSLog(@"getIPAddress:YES:%@", [self getIPAddress:YES]);
+    NSLog(@"getIPAddress:NO:%@", [self getIPAddress:NO]);
+    NSLog(@"getIPAddress:%@", [self getIPAddress]);
     NSLog(@"externalIPAddress:%@", [ALNetwork externalIPAddress]);
 }
-
-//+ (NSString *)externalIPAddress {
-//    // Check if we have an internet connection then try to get the External IP Address
-//    if (![self connectedViaWiFi] && ![self connectedVia3G]) {
-//        // Not connected to anything, return nil
-//        return nil;
-//    }
-//    
-//    // Get the external IP Address based on dynsns.org
-//    NSError *error = nil;
-//    NSString *theIpHtml = [NSString stringWithContentsOfURL:[NSURL URLWithString:@"http://www.dyndns.org/cgi-bin/check_ip.cgi"]
-//                                                   encoding:NSUTF8StringEncoding
-//                                                      error:&error];
-//    if (!error) {
-//        NSUInteger  an_Integer;
-//        NSArray *ipItemsArray;
-//        NSString *externalIP;
-//        NSScanner *theScanner;
-//        NSString *text = nil;
-//        
-//        theScanner = [NSScanner scannerWithString:theIpHtml];
-//        
-//        while ([theScanner isAtEnd] == NO) {
-//            
-//            // find start of tag
-//            [theScanner scanUpToString:@"<" intoString:NULL] ;
-//            
-//            // find end of tag
-//            [theScanner scanUpToString:@">" intoString:&text] ;
-//            
-//            // replace the found tag with a space
-//            //(you can filter multi-spaces out later if you wish)
-//            theIpHtml = [theIpHtml stringByReplacingOccurrencesOfString:
-//                         [ NSString stringWithFormat:@"%@>", text]
-//                                                             withString:@" "] ;
-//            ipItemsArray = [theIpHtml  componentsSeparatedByString:@" "];
-//            an_Integer = [ipItemsArray indexOfObject:@"Address:"];
-//            externalIP =[ipItemsArray objectAtIndex:++an_Integer];
-//        }
-//        // Check that you get something back
-//        if (externalIP == nil || externalIP.length <= 0) {
-//            // Error, no address found
-//            return nil;
-//        }
-//        // Return External IP
-//        return externalIP;
-//    } else {
-//        // Error, no address found
-//        return nil;
-//    }
-//}
 
 - (NSString *)getIPAddress {
     
