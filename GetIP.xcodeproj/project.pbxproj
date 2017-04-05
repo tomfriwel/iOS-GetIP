@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF6009071E953BAD00674099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6009061E953BAD00674099 /* main.m */; };
+		CF60090A1E953BAD00674099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6009091E953BAD00674099 /* AppDelegate.m */; };
+		CF60090D1E953BAD00674099 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60090C1E953BAD00674099 /* ViewController.m */; };
+		CF6009101E953BAD00674099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF60090E1E953BAD00674099 /* Main.storyboard */; };
+		CF6009121E953BAD00674099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6009111E953BAD00674099 /* Assets.xcassets */; };
+		CF6009151E953BAD00674099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6009131E953BAD00674099 /* LaunchScreen.storyboard */; };
+		CF6009201E953BAD00674099 /* GetIPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60091F1E953BAD00674099 /* GetIPTests.m */; };
+		CF60092B1E953BAD00674099 /* GetIPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60092A1E953BAD00674099 /* GetIPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF60091C1E953BAD00674099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF6008FA1E953BAD00674099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF6009011E953BAD00674099;
+			remoteInfo = GetIP;
+		};
+		CF6009271E953BAD00674099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF6008FA1E953BAD00674099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF6009011E953BAD00674099;
+			remoteInfo = GetIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF6009021E953BAD00674099 /* GetIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6009061E953BAD00674099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF6009081E953BAD00674099 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF6009091E953BAD00674099 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF60090B1E953BAD00674099 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF60090C1E953BAD00674099 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF60090F1E953BAD00674099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF6009111E953BAD00674099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF6009141E953BAD00674099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF6009161E953BAD00674099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF60091B1E953BAD00674099 /* GetIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF60091F1E953BAD00674099 /* GetIPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetIPTests.m; sourceTree = "<group>"; };
+		CF6009211E953BAD00674099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6009261E953BAD00674099 /* GetIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF60092A1E953BAD00674099 /* GetIPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetIPUITests.m; sourceTree = "<group>"; };
+		CF60092C1E953BAD00674099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF6008FF1E953BAD00674099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6009181E953BAD00674099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6009231E953BAD00674099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF6008F91E953BAD00674099 = {
+			isa = PBXGroup;
+			children = (
+				CF6009041E953BAD00674099 /* GetIP */,
+				CF60091E1E953BAD00674099 /* GetIPTests */,
+				CF6009291E953BAD00674099 /* GetIPUITests */,
+				CF6009031E953BAD00674099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF6009031E953BAD00674099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF6009021E953BAD00674099 /* GetIP.app */,
+				CF60091B1E953BAD00674099 /* GetIPTests.xctest */,
+				CF6009261E953BAD00674099 /* GetIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF6009041E953BAD00674099 /* GetIP */ = {
+			isa = PBXGroup;
+			children = (
+				CF6009081E953BAD00674099 /* AppDelegate.h */,
+				CF6009091E953BAD00674099 /* AppDelegate.m */,
+				CF60090B1E953BAD00674099 /* ViewController.h */,
+				CF60090C1E953BAD00674099 /* ViewController.m */,
+				CF60090E1E953BAD00674099 /* Main.storyboard */,
+				CF6009111E953BAD00674099 /* Assets.xcassets */,
+				CF6009131E953BAD00674099 /* LaunchScreen.storyboard */,
+				CF6009161E953BAD00674099 /* Info.plist */,
+				CF6009051E953BAD00674099 /* Supporting Files */,
+			);
+			path = GetIP;
+			sourceTree = "<group>";
+		};
+		CF6009051E953BAD00674099 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6009061E953BAD00674099 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF60091E1E953BAD00674099 /* GetIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF60091F1E953BAD00674099 /* GetIPTests.m */,
+				CF6009211E953BAD00674099 /* Info.plist */,
+			);
+			path = GetIPTests;
+			sourceTree = "<group>";
+		};
+		CF6009291E953BAD00674099 /* GetIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF60092A1E953BAD00674099 /* GetIPUITests.m */,
+				CF60092C1E953BAD00674099 /* Info.plist */,
+			);
+			path = GetIPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF6009011E953BAD00674099 /* GetIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF60092F1E953BAD00674099 /* Build configuration list for PBXNativeTarget "GetIP" */;
+			buildPhases = (
+				CF6008FE1E953BAD00674099 /* Sources */,
+				CF6008FF1E953BAD00674099 /* Frameworks */,
+				CF6009001E953BAD00674099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetIP;
+			productName = GetIP;
+			productReference = CF6009021E953BAD00674099 /* GetIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF60091A1E953BAD00674099 /* GetIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6009321E953BAD00674099 /* Build configuration list for PBXNativeTarget "GetIPTests" */;
+			buildPhases = (
+				CF6009171E953BAD00674099 /* Sources */,
+				CF6009181E953BAD00674099 /* Frameworks */,
+				CF6009191E953BAD00674099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF60091D1E953BAD00674099 /* PBXTargetDependency */,
+			);
+			name = GetIPTests;
+			productName = GetIPTests;
+			productReference = CF60091B1E953BAD00674099 /* GetIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF6009251E953BAD00674099 /* GetIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6009351E953BAD00674099 /* Build configuration list for PBXNativeTarget "GetIPUITests" */;
+			buildPhases = (
+				CF6009221E953BAD00674099 /* Sources */,
+				CF6009231E953BAD00674099 /* Frameworks */,
+				CF6009241E953BAD00674099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF6009281E953BAD00674099 /* PBXTargetDependency */,
+			);
+			name = GetIPUITests;
+			productName = GetIPUITests;
+			productReference = CF6009261E953BAD00674099 /* GetIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF6008FA1E953BAD00674099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tomfriwel;
+				TargetAttributes = {
+					CF6009011E953BAD00674099 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = T5EW9858SB;
+						ProvisioningStyle = Automatic;
+					};
+					CF60091A1E953BAD00674099 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = T5EW9858SB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF6009011E953BAD00674099;
+					};
+					CF6009251E953BAD00674099 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = T5EW9858SB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF6009011E953BAD00674099;
+					};
+				};
+			};
+			buildConfigurationList = CF6008FD1E953BAD00674099 /* Build configuration list for PBXProject "GetIP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF6008F91E953BAD00674099;
+			productRefGroup = CF6009031E953BAD00674099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF6009011E953BAD00674099 /* GetIP */,
+				CF60091A1E953BAD00674099 /* GetIPTests */,
+				CF6009251E953BAD00674099 /* GetIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF6009001E953BAD00674099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6009151E953BAD00674099 /* LaunchScreen.storyboard in Resources */,
+				CF6009121E953BAD00674099 /* Assets.xcassets in Resources */,
+				CF6009101E953BAD00674099 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6009191E953BAD00674099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6009241E953BAD00674099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF6008FE1E953BAD00674099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF60090D1E953BAD00674099 /* ViewController.m in Sources */,
+				CF60090A1E953BAD00674099 /* AppDelegate.m in Sources */,
+				CF6009071E953BAD00674099 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6009171E953BAD00674099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6009201E953BAD00674099 /* GetIPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6009221E953BAD00674099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF60092B1E953BAD00674099 /* GetIPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF60091D1E953BAD00674099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF6009011E953BAD00674099 /* GetIP */;
+			targetProxy = CF60091C1E953BAD00674099 /* PBXContainerItemProxy */;
+		};
+		CF6009281E953BAD00674099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF6009011E953BAD00674099 /* GetIP */;
+			targetProxy = CF6009271E953BAD00674099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF60090E1E953BAD00674099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF60090F1E953BAD00674099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF6009131E953BAD00674099 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6009141E953BAD00674099 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF60092D1E953BAD00674099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF60092E1E953BAD00674099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF6009301E953BAD00674099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = GetIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.GetIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF6009311E953BAD00674099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = GetIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.GetIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF6009331E953BAD00674099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = GetIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.GetIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetIP.app/GetIP";
+			};
+			name = Debug;
+		};
+		CF6009341E953BAD00674099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = GetIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.GetIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetIP.app/GetIP";
+			};
+			name = Release;
+		};
+		CF6009361E953BAD00674099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = GetIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.GetIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetIP;
+			};
+			name = Debug;
+		};
+		CF6009371E953BAD00674099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T5EW9858SB;
+				INFOPLIST_FILE = GetIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomfriwel.com.GetIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetIP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF6008FD1E953BAD00674099 /* Build configuration list for PBXProject "GetIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF60092D1E953BAD00674099 /* Debug */,
+				CF60092E1E953BAD00674099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF60092F1E953BAD00674099 /* Build configuration list for PBXNativeTarget "GetIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6009301E953BAD00674099 /* Debug */,
+				CF6009311E953BAD00674099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF6009321E953BAD00674099 /* Build configuration list for PBXNativeTarget "GetIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6009331E953BAD00674099 /* Debug */,
+				CF6009341E953BAD00674099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF6009351E953BAD00674099 /* Build configuration list for PBXNativeTarget "GetIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6009361E953BAD00674099 /* Debug */,
+				CF6009371E953BAD00674099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF6008FA1E953BAD00674099 /* Project object */;
+}
