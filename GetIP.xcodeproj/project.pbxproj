@@ -15,6 +15,7 @@
 		CF6009151E953BAD00674099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6009131E953BAD00674099 /* LaunchScreen.storyboard */; };
 		CF6009201E953BAD00674099 /* GetIPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60091F1E953BAD00674099 /* GetIPTests.m */; };
 		CF60092B1E953BAD00674099 /* GetIPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60092A1E953BAD00674099 /* GetIPUITests.m */; };
+		CF60093B1E953E0500674099 /* ALNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60093A1E953E0500674099 /* ALNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CF6009261E953BAD00674099 /* GetIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF60092A1E953BAD00674099 /* GetIPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetIPUITests.m; sourceTree = "<group>"; };
 		CF60092C1E953BAD00674099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6009391E953E0500674099 /* ALNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNetwork.h; sourceTree = "<group>"; };
+		CF60093A1E953E0500674099 /* ALNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNetwork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		CF6009041E953BAD00674099 /* GetIP */ = {
 			isa = PBXGroup;
 			children = (
+				CF6009381E953E0500674099 /* ALNetwork */,
 				CF6009081E953BAD00674099 /* AppDelegate.h */,
 				CF6009091E953BAD00674099 /* AppDelegate.m */,
 				CF60090B1E953BAD00674099 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				CF60092C1E953BAD00674099 /* Info.plist */,
 			);
 			path = GetIPUITests;
+			sourceTree = "<group>";
+		};
+		CF6009381E953E0500674099 /* ALNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				CF6009391E953E0500674099 /* ALNetwork.h */,
+				CF60093A1E953E0500674099 /* ALNetwork.m */,
+			);
+			path = ALNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF60090D1E953BAD00674099 /* ViewController.m in Sources */,
+				CF60093B1E953E0500674099 /* ALNetwork.m in Sources */,
 				CF60090A1E953BAD00674099 /* AppDelegate.m in Sources */,
 				CF6009071E953BAD00674099 /* main.m in Sources */,
 			);
